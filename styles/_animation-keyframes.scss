@@ -1,0 +1,66 @@
+@keyframes animate_grow {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes balltransform {
+  0% {
+    border-radius:50%;
+    width: 55px;
+    height: 55px;
+  }
+  35% {
+    width: 55px;
+    height: 55px;
+    border-radius:50%;
+    transform:rotate(0);
+  }
+  90% {
+    width: 55px;
+    height: 55px;
+    border-radius:0;
+    transform: rotate(-180deg);
+  }
+  100% {
+    border-radius:50%;
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@keyframes bounce-text {
+  60% {
+    font-size: 60px
+  }
+
+  100% {
+    font-size: 60px;
+    animation-play-state: paused;
+  }
+}
+
+
+@keyframes pepega {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  30% {
+    top: 50px;
+  }
+  68%,
+  72% {
+    left: 50px;
+  }
+  100% {
+    top: 100px;
+    left: 100%;
+  }
+}
